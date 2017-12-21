@@ -1,0 +1,40 @@
+{
+  "name": "za-piehelper",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "rimraf ./dist && ./node_modules/.bin/babel ./lib -d ./dist",
+    "prepublish": "npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeatPieYan/PieHelper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeatPieYan/PieHelper/issues"
+  },
+  "homepage": "https://github.com/MeatPieYan/PieHelper#readme"
+}
