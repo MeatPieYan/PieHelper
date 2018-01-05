@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/MeatPieYan/PieHelper/issues"
   },
-  "homepage": "https://github.com/MeatPieYan/PieHelper#readme"
+  "homepage": "https://github.com/MeatPieYan/PieHelper#readme",
+  "dependencies": {
+    "react-router-dom": "^4.2.2"
+  }
 }
