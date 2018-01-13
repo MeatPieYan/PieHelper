@@ -38,6 +38,9 @@
   },
   "homepage": "https://github.com/MeatPieYan/PieHelper#readme",
   "dependencies": {
+    
+  },
+  "peerDependencies": {
     "react-router-dom": "^4.2.2"
   }
 }
