@@ -7,3 +7,7 @@
 ## v1.0.17
 - BugFix
   - 修复在componentDidMount阶段拿不到env的bug
+
+## v1.0.18
+- BugFix
+  - 修复dispatch一个action之后无限循环渲染的bug
