@@ -1,6 +1,6 @@
 {
   "name": "za-piehelper",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/MeatPieYan/PieHelper#readme",
   "dependencies": {
-    "tac-ua": "^1.0.7"
+    "tac-ua": "^1.0.8"
   },
   "peerDependencies": {
     "react-router-dom": "^4.2.2",
