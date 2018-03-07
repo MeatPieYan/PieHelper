@@ -8,5 +8,6 @@ module.exports = {
   PieComponent,
   pieConnect,
   pieReducer,
-  pieAction
+  pieAction,
+  phoenixConnect
 };
