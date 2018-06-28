@@ -5,9 +5,9 @@ const pieAction = require('./dist/pie/pieAction');
 const pieReducer = require('./dist/pie/pieReducer');
 
 module.exports = {
-  PieComponent,
-  pieConnect,
-  pieReducer,
-  pieAction,
-  phoenixConnect
+  PieComponent: PieComponent,
+  pieConnect: pieConnect,
+  pieReducer: pieReducer,
+  pieAction: pieAction,
+  phoenixConnect: phoenixConnect
 };
